@@ -1,0 +1,67 @@
+{% block content %}
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+        <div class="card text-bg-light mb-3" style="max-width: 25rem;">
+            <div class="card-header">Total orders</div>
+            <div class="card-body">
+
+                <p class="card-text">{{total_order}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card text-bg-light mb-3" style="max-width: 25rem;">
+            <div class="card-header">Orders delivered</div>
+            <div class="card-body">
+
+                <p class="card-text">{{delivered}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card text-bg-light mb-3" style="max-width: 25rem;">
+            <div class="card-header">Orders Pending</div>
+            <div class="card-body">
+
+                <p class="card-text">{{pending}}</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- <div class="row">
+
+    <div class="col">
+        <div class="card text-bg-light mb-3" style="max-width: 30rem;">
+            <div class="card-header">Total orders</div>
+            <div class="card-body">
+                <p>0</p>
+            </div>
+        </div>
+
+
+        <div class="col">
+            <div class="card text-bg-light mb-3" style="max-width: 30rem;">
+                <div class="card-header">Orders delivered</div>
+                <div class="card-body">
+                    <p>0</p>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="col-md">
+                    <div class="card text-bg-light mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Orders Pending</div>
+                        <div class="card-body">
+                            <p>0</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+{% endblock %}
